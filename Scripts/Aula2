@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+    double a , b, c ;
+
+    cin >> a >> b >> c ;
+
+    //condicionais
+    if(a>b){
+        if(a>c){
+            cout << a << "o maior valor apresentado \n";
+        }
+    }else if(b>a){
+        if(b>c){
+            cout<< "este é o maior valor apresentado : \n";
+        }
+        
+    }else if(c>a){
+        if(c>b){
+            cout<< "este é o maior valor apresentado : \n";
+        }
+    }else if((a == b) && (b ==c) && (c == a )){
+        cout <<"estes valores são iguais";
+    }
+    
+    return 0;
+}
+//a>b e maior que c, então a é o maior de todos, caso contrário vocẽ teria a<
